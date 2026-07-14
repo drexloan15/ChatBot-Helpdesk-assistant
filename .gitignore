@@ -1,0 +1,33 @@
+# --- Secrets / env vars ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# --- Node ---
+node_modules/
+
+# --- Datos sensibles / internos (no subir a GitHub) ---
+docs/
+allowed_numbers.json
+
+# --- Vectorstore generado (embeddings derivados de docs/ sensibles) ---
+backend/vectorstore/
+vectorstore/
+
+# --- Dependencia de terceros (open-wa), no es código propio ---
+openwa_src/
+
+# --- Backups / archivos grandes ---
+*.tar.gz
+
+# --- Editor / OS ---
+.vscode/
+.DS_Store
+Thumbs.db

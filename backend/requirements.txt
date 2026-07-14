@@ -1,0 +1,23 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+httpx==0.28.1
+
+# Embeddings (vector store propio en app/rag/vectorstore.py, sin deps compiladas)
+sentence-transformers==3.3.1
+
+# Ingesta de documentos
+pymupdf==1.25.1
+python-docx==1.1.2
+openpyxl==3.1.5
+pandas==2.2.3
+pytesseract==0.3.13
+Pillow==11.0.0
+trafilatura==2.0.0
+requests==2.32.3
+charset-normalizer==3.4.9
+
+# Proveedores de LLM
+groq==0.13.1
+google-generativeai==0.8.3
